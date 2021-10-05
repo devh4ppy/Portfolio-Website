@@ -117,7 +117,7 @@ export const projects: IProject[] = [
         name:"Portfolio Website",
         description: "minimalistic - animated developer portfolio using Next.js , Tailwind CSS , TypeScript  & Framer Motion.",
         image_path: "/image/Portfolio.jpg",
-        deployed_url:"https://Portfolio-Website.vercel.app/",
+        deployed_url:"https://portfolio-website-six-mauve.vercel.app/",
         github_url:"https://github.com/devh4ppy/Portfolio-Website",
         key_tech:["React","Next","TypeScript","Tailwind"],
     },
