@@ -30,7 +30,7 @@ const { pathname } = useRouter()
         if (pathname === "/projects") setActiveItem('Projects')
         if (pathname === "/resume") setActiveItem('Resume')
     
-    }, [])
+    }, [pathname])
 
     return (
         <div className="flex justify-between px-5 py-3 my-3">

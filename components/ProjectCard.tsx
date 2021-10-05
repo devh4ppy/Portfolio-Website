@@ -1,7 +1,8 @@
-import { FunctionComponent, useState } from "react"
-import { AiFillGithub, AiFillProject } from "react-icons/ai"
-import { MdClose } from 'react-icons/md'
-import { IProject } from "../type"
+import { FunctionComponent, useState } from "react";
+import { AiFillGithub, AiFillProject } from "react-icons/ai";
+import { MdClose } from 'react-icons/md';
+import { IProject } from "../type";
+import Image from 'next/image';
 
 const ProjectCard:FunctionComponent<{project:IProject}> = ({project:{
     name,description,image_path,github_url,deployed_url,key_tech
@@ -12,14 +13,37 @@ const ProjectCard:FunctionComponent<{project:IProject}> = ({project:{
 
     return (
         <div>
-          <img src={image_path} alt={name} className="cursor-pointer transition duration-200 ease-in transform sm:hover:scale-105 hover:z-50" onClick={()=>setshowDetail(true)}/> 
+          <Image 
+          src={image_path} 
+          alt={name} 
+          className="cursor-pointer transition duration-200 ease-in 
+          transform sm:hover:scale-105 hover:z-50" 
+          onClick={()=>setshowDetail(true)}
+          width="400"
+          height="200"
+          layout="responsive"
+          /> 
+          {/* <img 
+          src={image_path} 
+          alt={name} 
+          className="cursor-pointer transition duration-200 ease-in 
+          transform sm:hover:scale-105 hover:z-50" 
+          onClick={()=>setshowDetail(true)}
+          />  */}
           <p className="my-2 text-center ">{name}</p>
             
           {
             showDetail && (
             <div className="grid md:grid-cols-2 absolute top-0 left-0 z-10 h-auto w-full gap-x-12 text-black bg-gray-300 dark:bg-dark-200 dark:text-white p-2">
                 <div>
-                <img src={image_path} alt={name} /> 
+                {/* <img src={image_path} alt={name} />  */}
+                <Image 
+                src={image_path} 
+                alt={name} 
+                width="400"
+                height="200"
+                layout="responsive"
+                /> 
                     <div className="flex justify-center my-4 space-x-3">
                         <a href={github_url} className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200 rounded transition duration-200 ease-in transform sm:hover:scale-105 hover:z-50">
                             <AiFillGithub /> <span>GitHub</span>

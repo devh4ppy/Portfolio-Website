@@ -1,7 +1,8 @@
-import { AiFillGithub,AiFillLinkedin,AiFillInstagram } from 'react-icons/ai'
-import { GoLocation } from 'react-icons/go'
-import { GiTie } from 'react-icons/gi'
-import { useTheme } from 'next-themes'
+import { AiFillGithub,AiFillLinkedin,AiFillInstagram } from 'react-icons/ai';
+import { GoLocation } from 'react-icons/go';
+import { GiTie } from 'react-icons/gi';
+import { useTheme } from 'next-themes';
+import Image from 'next/image';
 
 const Sidebar = () => {
     const { theme, setTheme } = useTheme();
@@ -12,9 +13,12 @@ const Sidebar = () => {
 
     return (
         <div>
-            <img src="/image/photo.jpg"
-             alt="user avatar" 
-             className="w-32 h-32 rounded-full mx-auto"
+            <Image src="/image/photo.jpg"
+            alt="user avatar" 
+            className="w-32 h-32 rounded-full mx-auto"
+            width="128"
+            height="128"
+            layout="intrinsic"
              />
             <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
                 <span className="text-green">Pankaj</span> Singh

@@ -19,7 +19,10 @@ const index = () => {
           <h6 className="my-3 text-xl font-bold tracking-wide">What I am doing</h6>
           <motion.div className="grid lg:grid-cols-2 gap-6" variants={stagger} initial="initial" animate="animate">
             {services.map(service => (
-              <motion.div variants={fadeInUp} className="bg-gray-400 dark:bg-dark-200 rounded-lg lg:col-span-1 text-left "
+              <motion.div 
+              variants={fadeInUp} 
+              className="bg-gray-400 dark:bg-dark-200 
+              rounded-lg lg:col-span-1 text-left "
               key={service.title}
               >
                 <ServiceCard service={service} />
