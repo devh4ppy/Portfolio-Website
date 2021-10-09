@@ -141,7 +141,7 @@ export const projects: IProject[] = [
         name:"Titanic Survival Prediction",
         description: "My B.E mini project on data analysis",
         image_path: "/image/Titanic.png",
-        deployed_url:"",
+        deployed_url:"https://colab.research.google.com/drive/1unk8GwhG0kwuY24sKPZPbIreXyCfK9bg",
         github_url:"",
         key_tech:["Python","Numpy"],
     },
