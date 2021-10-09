@@ -38,7 +38,7 @@ const Sidebar = () => {
                 <a href="https://github.com/devh4ppy">
                     <AiFillGithub className=" w-8 h-8 cursor-pointer " />
                 </a>
-                <a href="www.linkedin.com/in/pankaj-singh-691a6a222">
+                <a href="linkedin.com/in/pankaj-singh-691a6a222">
                     <AiFillLinkedin className=" w-8 h-8 cursor-pointer" />
                 </a>
                 <a href="">
