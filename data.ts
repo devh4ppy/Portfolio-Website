@@ -121,6 +121,14 @@ export const projects: IProject[] = [
         github_url:"https://github.com/devh4ppy/Portfolio-Website",
         key_tech:["React","Next","TypeScript","Tailwind"],
     },
+     {
+        name:"Node.js Social Media REST API",
+        description: "a real-world social media app REST API with login, register, and all CRUD operations using MongoDB models with Node.js routers.",
+        image_path: "/image/rest.jpg",
+        deployed_url:"",
+        github_url:"https://github.com/devh4ppy/REST-API-Social-Media",
+        key_tech:["Node.js", "Express.js","MongoDB"],
+    },
     {
         name:"Sales Insights Data Analysis",
         description: "sales insights data analysis project using tableau. This project give you a feel of how data analysis projects are executed in big companies. My case study is based on a computer business which is facing challenges in dynamically changing market.",
@@ -145,12 +153,5 @@ export const projects: IProject[] = [
         github_url:"",
         key_tech:["Python","Numpy"],
     },
-    {
-        name:"Node.js Social Media REST API",
-        description: "a real-world social media app REST API with login, register, and all CRUD operations using MongoDB models with Node.js routers.",
-        image_path: "/image/rest.jpg",
-        deployed_url:"",
-        github_url:"https://github.com/devh4ppy/REST-API-Social-Media",
-        key_tech:["Node.js", "Express.js","MongoDB"],
-    },
+   
 ]
