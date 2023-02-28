@@ -33,7 +33,7 @@ export const services:IService[] = [
         Icon: AiTwotoneProject,
         title:"Projects",
         about:
-        "building robust and efficient web applications, leveraging strong object-oriented programming and database design skills.",
+        "Building robust and efficient web applications, leveraging strong object-oriented programming and database design skills.",
         
     },
 
