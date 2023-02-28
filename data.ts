@@ -1,8 +1,8 @@
 
 import { RiComputerLine } from 'react-icons/ri'
-import { DiBootstrap, DiDjango, DiGoogleAnalytics, DiJava, DiPhotoshop, DiPython, DiReact } from 'react-icons/di'
+import { DiRedis, DiMongodb, DiGoogleAnalytics, DiJava, DiPhotoshop, DiPython, DiReact, DiJavascript1 } from 'react-icons/di'
 import { AiOutlineAntDesign, AiOutlineApi } from 'react-icons/ai'
-import { SiTableau, SiTailwindcss } from 'react-icons/si'
+import { SiTableau, SiInfluxdb, SiNodedotjs } from 'react-icons/si'
 import { FaFigma } from 'react-icons/fa'
 import { IProject, IService, ISkill } from './type'
 
@@ -17,7 +17,7 @@ export const services:IService[] = [
     },
     {
         Icon: AiOutlineApi,
-        title:"API Development",
+        title:"Back-End Web Development",
         about:
         "I am currently learning to develop robust REST API using <b>django-rest-api</b> & <b>Node API</b>",
         
@@ -48,34 +48,34 @@ export const services:IService[] = [
 
 export const languages:ISkill[] = [
     {
-        name:"Python",
-        level:"70%",
-        Icon:DiPython
+        name:"Node js",
+        level:"90%",
+        Icon:SiNodedotjs
     },
     {
-        name:"Java Script",
-        level:"60%",
-        Icon:DiJava
+        name:"JavaScript",
+        level:"90%",
+        Icon:DiJavascript1
     },
     {
         name:"React js",
-        level:"80%",
+        level:"60%",
         Icon:DiReact
     },
     {
-        name:"Django",
-        level:"70%",
-        Icon:DiDjango
+        name:"MongoDB",
+        level:"80%",
+        Icon:DiMongodb
     },
     {
-        name:"Tailwindcss",
+        name:"InfluxDB",
         level:"80%",
-        Icon:SiTailwindcss
+        Icon:SiInfluxdb
     },
     {
-        name:"Bootstrap",
+        name:"Redis",
         level:"80%",
-        Icon:DiBootstrap
+        Icon:DiRedis
     },
 ]
 
