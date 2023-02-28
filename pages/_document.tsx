@@ -11,7 +11,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
         </Head>
-        <body className="bg-fixed linear-gradient(to right, rgb(255, 228, 230), rgb(204, 251, 241)) dark:from-dark-500 dark:to-dark-700 dark:text-white">
+        <body className="bg-fixed bg-gradient-to-r from-rose-100 to-teal-100 dark:from-dark-500 dark:to-dark-700 dark:text-white">
           <Main />
           <NextScript />
         </body>
