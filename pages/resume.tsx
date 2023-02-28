@@ -36,10 +36,12 @@ const resume = () => {
                     <p className='font-semibold '>Faclon Labs</p>
                     <p>Full-time</p>
                     <p>Mar 2022 - Present · 1 yr</p>
+                    <p className="my-3 font-semibold">Skills: Redis · Servers · Back-End Web Development · Node.js · JavaScript · MongoDB · InfluxDBSkills</p>
                     <h5 className='my-2 text-xl font-bold'>Backend Intern</h5>
                     <p className='font-semibold '>Faclon Labs</p>
                     <p>Internship</p>
                     <p>Mar 2022 - May 2022 · 3 mos</p>
+                    <p className="my-3 font-semibold">Skills: Back-End Web Development · JavaScript</p>
                 </motion.div>
             </div>
             {/* languages & tools */}
