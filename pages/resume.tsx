@@ -9,7 +9,7 @@ const resume = () => {
     return (
         <div className="px-6 py-2">
             {/* education */}
-            <div className='grid-md:grid-cols-2 text-2xl font-bold '>
+            <div className='grid-md:grid-cols-2 text-2xl font-bold my-3 gap-6 '>
             <div>
             <h5>Education</h5>
             </div>
