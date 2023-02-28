@@ -12,7 +12,7 @@ export const services:IService[] = [
         Icon: AiOutlineApi,
         title:"Back-End Web Development",
         about:
-        "Experienced Back-End Web Developer specializing in developing and maintaining custom web applications and APIs using , including the structure, server-side logic, and database interactions.",
+        "Experienced Back-End Web Developer specializing in developing and maintaining custom web applications and APIs, including the structure, server-side logic, and database interactions.",
         
     },
     {
