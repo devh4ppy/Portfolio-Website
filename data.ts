@@ -1,25 +1,25 @@
 
 import { RiComputerLine } from 'react-icons/ri'
 import { DiRedis, DiMongodb, DiGoogleAnalytics, DiJava, DiPhotoshop, DiPython, DiReact, DiJavascript1 } from 'react-icons/di'
-import { AiOutlineAntDesign, AiOutlineApi } from 'react-icons/ai'
-import { SiTableau, SiInfluxdb, SiNodeDotJs } from 'react-icons/si'
+import { AiOutlineAntDesign, AiOutlineApi, AiFillGitlab } from 'react-icons/ai'
+import { SiPostman, SiInfluxdb, SiNodeDotJs, SiApache, SiDocker } from 'react-icons/si'
 import { FaFigma } from 'react-icons/fa'
 import { IProject, IService, ISkill } from './type'
 
 
 export const services:IService[] = [
+{
+        Icon: AiOutlineApi,
+        title:"Back-End Web Development",
+        about:
+        "I am currently learning to develop robust REST API using <b>django-rest-api</b> & <b>Node API</b>",
+        
+    },
     {
         Icon: RiComputerLine,
         title:"Frontend Development",
         about:
         "I can build a beautiful, responsive and scalable website using <b> React.js</b>,<b>Tailwind CSS</b> and <b>JavaScript</b>",
-        
-    },
-    {
-        Icon: AiOutlineApi,
-        title:"Back-End Web Development",
-        about:
-        "I am currently learning to develop robust REST API using <b>django-rest-api</b> & <b>Node API</b>",
         
     },
     {
@@ -81,18 +81,22 @@ export const languages:ISkill[] = [
 
 export const tools: ISkill[] = [
     {
-        name:"Fimga",
-        level:"80%",
-        Icon:FaFigma
+        name:"Docker",
+        level:"85%",
+        Icon:SiDocker
     },
     {
-        name:"Tableau",
-        level:"80%",
-        Icon:SiTableau
+        name:"Postman",
+        level:"100%",
+        Icon:SiPostman
     },{
-        name:"Photoshop",
-        level:"50%",
-        Icon:DiPhotoshop
+        name:"Version Control",
+        level:"100%",
+        Icon:AiFillGitlab
+    },{
+        name:"Apache Bench",
+        level:"70%",
+        Icon:SiApache
     },
 ]
 
