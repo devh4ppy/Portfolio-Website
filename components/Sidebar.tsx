@@ -1,4 +1,4 @@
-import { AiFillGithub,AiFillLinkedin,AiFillInstagram } from 'react-icons/ai';
+import { AiFillGithub,AiFillLinkedin,AiFillInstagram, AiFillGitlab } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
 import { GiTie } from 'react-icons/gi';
 import { useTheme } from 'next-themes';
@@ -38,11 +38,11 @@ const Sidebar = () => {
                 <a href="https://github.com/devh4ppy">
                     <AiFillGithub className=" w-8 h-8 cursor-pointer " />
                 </a>
-                <a href="linkedin.com/in/pankaj-singh-691a6a222">
+                <a href="www.linkedin.com/in/pankajsingh108">
                     <AiFillLinkedin className=" w-8 h-8 cursor-pointer" />
                 </a>
-                <a href="">
-                    <AiFillInstagram className=" w-8 h-8 cursor-pointer" />
+                <a href="https://gitlab.com/devh4ppy">
+                    <AiFillGitlab className=" w-8 h-8 cursor-pointer" />
                 </a>
             </div>
 
