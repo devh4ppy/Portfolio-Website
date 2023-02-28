@@ -2,7 +2,7 @@
 import { RiComputerLine } from 'react-icons/ri'
 import { DiRedis, DiMongodb, DiGoogleAnalytics, DiJava, DiPhotoshop, DiPython, DiReact, DiJavascript1 } from 'react-icons/di'
 import { AiOutlineAntDesign, AiOutlineApi, AiFillGitlab } from 'react-icons/ai'
-import { SiPostman, SiInfluxdb, SiNodeDotJs, SiApache, SiDocker } from 'react-icons/si'
+import { SiPostman, SiInfluxdb, SiNodeDotJs, SiApache, SiDocker, SiTableau } from 'react-icons/si'
 import { FaFigma } from 'react-icons/fa'
 import { IProject, IService, ISkill } from './type'
 
