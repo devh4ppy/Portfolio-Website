@@ -9,7 +9,7 @@ const resume = () => {
     return (
         <div className="px-6 py-2">
             {/* education */}
-            <div className='grid-md:grid-cols-2 text-center text-2xl font-bold '>
+            <div className='grid-md:grid-cols-2 text-2xl font-bold '>
             <div>
             <h5>Education</h5>
             </div>
@@ -32,7 +32,14 @@ const resume = () => {
                     <p className="my-3 font-semibold">Aggregate Percentage: 62.39%</p>
                 </motion.div>
                 <motion.div variants={fadeInUp} initial="initial" animate="animate">
-                    <h5 className='my-2 text-xl font-bold'>Faclon Labs</h5>
+                    <h5 className='my-2 text-xl font-bold'>Backend Developer</h5>
+                    <p className='font-semibold '>Faclon Labs</p>
+                    <p>Full-time</p>
+                    <p>Mar 2022 - Present · 1 yr</p>
+                    <h5 className='my-2 text-xl font-bold'>Backend Intern</h5>
+                    <p className='font-semibold '>Faclon Labs</p>
+                    <p>Internship</p>
+                    <p>Mar 2022 - May 2022 · 3 mos</p>
                 </motion.div>
             </div>
             {/* languages & tools */}
