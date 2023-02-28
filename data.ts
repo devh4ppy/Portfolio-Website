@@ -2,7 +2,7 @@
 import { RiComputerLine } from 'react-icons/ri'
 import { DiRedis, DiMongodb, DiGoogleAnalytics, DiJava, DiPhotoshop, DiPython, DiReact, DiJavascript1 } from 'react-icons/di'
 import { AiOutlineAntDesign, AiOutlineApi } from 'react-icons/ai'
-import { SiTableau, SiInfluxdb, SiNodedotjs } from 'react-icons/si'
+import { SiTableau, SiInfluxdb, SiNodeDotJs } from 'react-icons/si'
 import { FaFigma } from 'react-icons/fa'
 import { IProject, IService, ISkill } from './type'
 
@@ -50,7 +50,7 @@ export const languages:ISkill[] = [
     {
         name:"Node js",
         level:"90%",
-        Icon:SiNodedotjs
+        Icon:SiNodeDotJs
     },
     {
         name:"JavaScript",
