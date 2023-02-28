@@ -1,9 +1,9 @@
 
 import { RiComputerLine } from 'react-icons/ri'
 import { DiRedis, DiMongodb, DiGoogleAnalytics, DiJava, DiPhotoshop, DiPython, DiReact, DiJavascript1 } from 'react-icons/di'
-import { AiOutlineAntDesign, AiOutlineApi, AiFillGitlab } from 'react-icons/ai'
+import { AiOutlineAntDesign, AiOutlineApi, AiFillGitlab,AiTwotoneProject } from 'react-icons/ai'
 import { SiPostman, SiInfluxdb, SiNodeDotJs, SiApache, SiDocker, SiTableau } from 'react-icons/si'
-import { FaFigma } from 'react-icons/fa'
+import { FaFigma, FaProjectDiagram } from 'react-icons/fa'
 import { IProject, IService, ISkill } from './type'
 
 
@@ -12,7 +12,7 @@ export const services:IService[] = [
         Icon: AiOutlineApi,
         title:"Back-End Web Development",
         about:
-        "I am currently learning to develop robust REST API using <b>django-rest-api</b> & <b>Node API</b>",
+        "Experienced Back-End Web Developer specializing in developing and maintaining custom web applications and APIs using , including the structure, server-side logic, and database interactions.",
         
     },
     {
@@ -23,24 +23,17 @@ export const services:IService[] = [
         
     },
     {
-        Icon: AiOutlineAntDesign,
-        title:"UI/UX Designer",
+        Icon: FaProjectDiagram,
+        title:"Systems design",
         about:
-        "Stunning user interface designer using <b>Figma</b>",
+        "Learning Systems Design for designing, developing and deploying sophisticated systems architecture solutions for various industries.",
         
     },
     {
-        Icon: DiGoogleAnalytics,
-        title:"Data Analytics",
+        Icon: AiTwotoneProject,
+        title:"Projects",
         about:
-        "I can analyze data using <b>Python</b> & <b>SQL</b>",
-        
-    },
-    {
-        Icon: SiTableau,
-        title:"Data Visualization",
-        about:
-        "Analytics data visualization for solving problem using <b>Tableau</b>",
+        "building robust and efficient web applications, leveraging strong object-oriented programming and database design skills.",
         
     },
 
